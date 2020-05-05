@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Fira Sans, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background: #111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #2962FF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+code {
+  background: #fff;
+  color: #000;
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+pre, pre code {
+  background: #222;
+  padding: 0;
+}

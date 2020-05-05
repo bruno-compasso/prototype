@@ -1,40 +1,29 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
+import Layout from '../components/layout/layout'
+import Card from '../components/card/card'
 
-export default function Home({ allPostsData }) {
+export default function Home() {
   return (
     <Layout home>
-      <Head>---</Head>
-      <section className={utilStyles.headingMd}>---</section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href="/posts/[id]" as={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <Head>
+        <title>Homepage</title>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
+      </Head>
+      <div className="cardContainer">
+        <Card link="/topics/react" name="React" />
+        <Card link="/topics/javascriptesplus" name="JavaScript ES+" />
+        <Card link="/topics/angular" name="Angular" />
+        <Card link="/topics/graphql" name="GraphQL" />
+      </div>
+      <style jsx>{`
+      .cardContainer {
+          display: inline-grid;
+          grid-template-columns: repeat(4, 1fr);
+          width: 100%;
+          grid-column-gap: 5px;
+          min-height: 250px;
+        }  
+      `}</style>
     </Layout>
   )
-}
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
 }
