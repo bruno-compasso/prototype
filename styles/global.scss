@@ -40,14 +40,15 @@ h6 {
 }
 
 code {
-  background: #fff;
-  color: #000;
+  background: #222;
+  color: #ffcc99;
   border-radius: 3px;
-  padding: 1px 5px;
+  padding: 1.5px 5px;
   font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
 }
 
 pre, pre code {
-  background: #222;
+  background: #222 !important;
   padding: 0;
 }

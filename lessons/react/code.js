@@ -1,8 +1,9 @@
 export default `
-## Custom code renderer
+## What is React?
 
-This example shows how you can make react-markdown syntax-highlight code blocks.
-By default, react-markdown will simply wrap code blocks in <pre><code>.
+React is a library that is used to build user interfaces in a modular fashion. What makes React so great is that it makes it much easier to build complex UIs by allowing you to separate different elements of the UI into smaller parts called *components*.
+
+React is a library, and NOT a framework. What that means is that you're free to use React in your aplication without it dictating every single aspect of your app. You don't even have to build your whole website using React, you could pretty much just use React in a single page and then use a different technology on the rest.
 
 \`\`\`js
 const React = require('react')
