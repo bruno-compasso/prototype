@@ -1,5 +1,5 @@
 import Nav from '../components/nav/nav'
-import IMG1 from '/agadRLy98h.jpg';
+import IMG1 from '../public/agadRLy98h.jpg'
 import styles from './contato.module.css'
 
 class Contato extends Component {
