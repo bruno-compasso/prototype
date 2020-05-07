@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './FullScreenMenu.module.css'
+import styles from './fullScreenMenu.module.css'
 
 class FullScreenMenu extends React.Component {
   render() {
