@@ -1,17 +1,5 @@
-const withTM = require('next-transpile-modules')(['react-syntax-highlighter']);
+// const withTM = require("next-transpile-modules")(["react-syntax-highlighter/dist/esm/styles/prism/index"]);
+const withTM = require("next-transpile-modules")(["react-syntax-highlighter/dist/esm/styles/prism/index.js"]);
+// const withTM = require("next-transpile-modules")(["react-syntax-highlighter/dist/esm/styles/prism"]);
  
 module.exports = withTM();
-
-module.exports = {
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      issuer: {
-        test: /\.(js|ts)x?$/,
-      },
-      use: ['@svgr/webpack'],
-    });
-
-    return config;
-  },
-};

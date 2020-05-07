@@ -1,6 +1,8 @@
+import { Component } from 'react'
 import Nav from '../components/nav/nav'
-import IMG1 from '../public/agadRLy98h.jpg'
 import styles from './contato.module.css'
+
+const IMG1 = 'https://i.imgur.com/R6JB6SK.jpg'
 
 class Contato extends Component {
   render() {

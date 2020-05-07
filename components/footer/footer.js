@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import Logo from '../../public/images/logo-bruno-pereira.svg'
 import styles from './footer.module.css'
 
 class Footer extends Component {
@@ -8,7 +7,6 @@ class Footer extends Component {
       <footer className={styles.footerOuter}>
         <div className={styles.footer}>
           <div className={styles.footerCol}>
-            <Logo className="app-logo" />
             <div className={`${styles.contactRow} tal`}>
               <p className={styles.socialNetworks}>
                 <a href="https://www.linkedin.com/in/sirbruno/" target="_blank" rel="noopener noreferrer">
