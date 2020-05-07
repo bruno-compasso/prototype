@@ -1,0 +1,43 @@
+.footerOuter {
+  background: #1a1a1a;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 15px;
+  padding: 100px 0;
+  align-items: center;
+}
+
+.footer h4 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+
+.footer img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+color: rgba(255,255,255,.5);
+margin: 0;
+padding-bottom: 5px;
+}
+
+.contactRow i {
+color: #eee;
+font-size: 20px;
+}
+
+.contactRow i:hover {
+color: rgba(255,255,255,.7);
+}
+
+.contactRow a {
+margin-right: 20px;
+}

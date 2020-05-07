@@ -1,0 +1,31 @@
+.navMenu {
+  position: absolute;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  background: red;
+}
+
+.navMenu ul {
+  padding: 0;
+}
+
+.navMenuIcon {
+  background: red;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  font-size: 25px;
+  right: 20px;
+  top: 20px;
+}
+
+.navMenu li a {
+  font-size: 25px;
+  font-weight: 500 !important;
+  color: #eee;
+}
+
+.navMenuIcon {
+  color: #fff !important;
+}
