@@ -52,3 +52,31 @@ pre, pre code {
   background: #222 !important;
   padding: 0;
 }
+
+.cardContainer {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin: 50px 0;
+}
+
+.tar {
+  text-align: right !important;
+}
+
+.tal {
+  text-align: left !important;
+}
+
+@media screen and (max-width: 767px) {
+  .hideMobile {
+    display: none;
+  }
+}
+
+// LOGO
+.app-logo {
+  max-width: 100px;
+}

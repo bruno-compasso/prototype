@@ -1,0 +1,66 @@
+/* orange: #fa3c00 */
+
+.mainDiv {
+  background: url("/header_bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  height: 100vh;
+  display: grid;
+}
+
+.content {
+  color: #fff;
+}
+
+.content p b {
+  font-weight: 500;
+}
+
+#header p {
+  font-weight: 100;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgba(255,255,255,0.75);
+}
+
+.mainDiv h1 {
+  text-shadow: 0 0 20px rgba(0,0,0,0.75);
+  font-weight: normal;
+  font-size: 70px;
+  margin: 0;
+  text-shadow: 4px 4px 0 #fa3c00;
+}
+
+.btn {
+  margin-top: 75px;
+  display: block;
+}
+
+.hideOnDesktop {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .mainDiv h1 {
+    font-size: 40px;
+  }
+
+  .mainDiv .content p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .mainDiv .content p b {
+    font-weight: 500;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .hideOnDesktop {
+    display: block;
+  }
+}

@@ -1,0 +1,15 @@
+/* orange: #fa3c00 */
+
+.btn {
+  background: #fa3c00;
+  padding: 12px 45px;
+  border-radius: 100px;
+  transition: .3s;
+  color: #eee;
+  font-weight: 400;
+}
+
+.btn:hover {
+  
+  background: #E43700;
+}

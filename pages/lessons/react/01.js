@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Layout from '../../../components/layout/layout'
 import ReactMarkdown from 'react-markdown'
-import codeRenderer from '../../../lessons/react/code-renderer'
-import sampleCode from '../../../lessons/react/code'
+import CodeBlock from '../../../markdown/code-renderer'
+import sampleCode from '../../../markdown/react/code'
 
 export default function _01() {
   return (
@@ -13,7 +13,7 @@ export default function _01() {
       <div>
         <ReactMarkdown
           source={sampleCode}
-          renderers={{ code: codeRenderer }}
+          renderers={{ code: CodeBlock }}
         />
       </div>
     </Layout>
