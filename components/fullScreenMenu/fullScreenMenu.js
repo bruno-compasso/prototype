@@ -3,7 +3,6 @@ import styles from './fullScreenMenu.module.css'
 
 class FullScreenMenu extends React.Component {
   render() {
-
     if (this.props.navShow) {
       return (
         <div>

@@ -10,8 +10,6 @@ class Contato extends Component {
           <Nav />
         </div>
         <div className={styles.section}>
-
-          {/* ##### <SECTION 1> ##### */}
           <div className={styles.innerSection}>
 
             <div className={styles.innerSectionContent}>
