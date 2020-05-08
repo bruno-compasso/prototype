@@ -7,13 +7,14 @@ export default function Tutorials() {
   return (
     <Layout home>
       <Head>
+        <meta name="og:title" content="Bruno Pereira | Web developer" />
         <meta name="description" content="Hi, my name is Bruno, and i'm a web developer in São Paulo, Brazil." />
         <title>Homepage</title>
       </Head>
-      <div>
-        <Header />
-        <Footer />
-      </div>
+        <div>
+          <Header />
+          <Footer />
+        </div>
     </Layout>
   )
 }
