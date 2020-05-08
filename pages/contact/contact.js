@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import Nav from '../components/nav/nav'
-import styles from './contato.module.css'
+import Nav from '../../components/nav/nav'
+import styles from './contact.module.css'
 
 const IMG1 = 'https://i.imgur.com/R6JB6SK.jpg'
 

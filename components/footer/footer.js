@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import styles from './footer.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Footer extends Component {
   render() {
@@ -9,11 +10,8 @@ class Footer extends Component {
           <div className={styles.footerCol}>
             <div className={`${styles.contactRow} tal`}>
               <p className={styles.socialNetworks}>
-                <a href="https://www.linkedin.com/in/sirbruno/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://www.instagram.com/bruno.webjr/" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-instagram"></i>
+                <a className="socialMediaLink" href="https://www.linkedin.com/in/sirbruno/" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon className="faSocialMedia" icon={['fab', 'linkedin']} />
                 </a>
               </p>
             </div>
@@ -24,6 +22,16 @@ class Footer extends Component {
             <p>bruno.webjr@gmail.com</p>
             <p>Mogi Mirim, SP</p>
           </div>
+        </div>
+        <div style={{
+          textAlign: 'center',
+          borderTop: 'thin solid #333',
+          margin: '0 20px',
+          padding: '10px',
+          fontSize: '14px',
+          color: '#fff'
+        }}>
+          <i>Work in progress</i>
         </div>
       </footer>
     )
