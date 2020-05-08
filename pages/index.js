@@ -7,8 +7,8 @@ export default function Tutorials() {
   return (
     <Layout home>
       <Head>
+        <meta name="description" content="Hi, my name is Bruno, and i'm a web developer in São Paulo, Brazil." />
         <title>Homepage</title>
-        <meta name="Description" content="Hi, my name is Bruno, and i'm a web developer in São Paulo, Brazil." />
       </Head>
       <div>
         <Header />
