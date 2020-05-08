@@ -1,5 +1,4 @@
 import styles from './header.module.css'
-import Button from '../button/button'
 
 export default function Header() {
   return (
@@ -11,11 +10,8 @@ export default function Header() {
             </h1>
           </div>
           <div className={styles.content}>
-            <p><b>Desenvolvedor Web</b><br className={styles.hideOnDesktop} /><span className={styles.hideOnMobile}> em </span>Mogi Mirim, SP</p>
+            <p>Hi, my name is Bruno, and i'm a Web developer in São Paulo, Brazil. I used to build WordPress websites for an agency. Currently working full-time as a software engineer for one of the biggest tech companies in latin america.</p>
           </div>
-          <section className={styles.btn}>
-            <Button name="Contato" link="/contato" />
-          </section>
         </div>
       </div>
   )
