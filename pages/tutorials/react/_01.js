@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Layout from '../../../components/layout/layout'
+import Layout from '../../../../components/layout/layout'
 import ReactMarkdown from 'react-markdown'
-import CodeBlock from '../../../markdown/code-renderer'
-import sampleCode from '../../../markdown/react/code'
+import CodeBlock from '../../../../markdown/code-renderer'
+import sampleCode from '../../../../markdown/react/code'
 
 export default function _01() {
   return (

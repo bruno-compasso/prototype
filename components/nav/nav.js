@@ -3,7 +3,7 @@ import styles from './nav.module.css'
 import Link from 'next/link'
 import FullScreenMenu from '../fullScreenMenu/fullScreenMenu'
 
-export default function Nav(props) {
+export default function Nav() {
 
   const [navStatus, setNavStatus] = useState(false);
 
@@ -17,7 +17,8 @@ export default function Nav(props) {
         <div className={styles.navWrapper}>
           <ul id={styles.navDesktop} className={styles.navMenu}>
             <li><Link href="/"><a>Home</a></Link></li>
-            <li><Link href="/contato"><a>Contato</a></Link></li>
+            <li><Link href="/contact/contact" as="/contact"><a>Contato</a></Link></li>
+            <li><Link href="./tutorials/all">Tutorials</Link></li>
           </ul>
           <i onClick={navToggle} className={`${styles.navMenuIcon} fas fa-bars`}></i>
         </div>

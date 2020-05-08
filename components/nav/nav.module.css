@@ -13,13 +13,13 @@
   width: 100%;
   padding: 0;
   display: inline-grid;
-  grid-template-columns: 1fr 1fr;
   margin: 20px 0;
   grid-column-gap: 5px;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
 }
 
 .navWrapper ul li {
-  background: #222;
+  background: #fff;
   display: inline;
   padding: 10px;
 }
@@ -29,14 +29,20 @@
 }
 
 .navWrapper ul li a {
-  color: rgba(255,255,255,0.75);
+  color: #555;
   margin: 20px;
   font-weight: 400;
-  transition: .3s;
+  transition: .15s;
+  text-decoration: none;
 }
 
-.navWrapper ul li a:hover {
-  color: #fff;
+.navWrapper ul li:hover {
+  cursor: pointer;
+}
+
+.navWrapper ul li:hover a {
+  color: #000;
+  transition: .15s;
 }
 
 .brandLogo {
