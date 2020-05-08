@@ -8,7 +8,7 @@ export default function Tutorials() {
     <Layout home>
       <Head>
         <meta name="og:title" content="Bruno Pereira | Web developer | Tutorials" />
-        <meta name="description" content="Hi, my name is Bruno, and i'm a web developer in São Paulo, Brazil. Feel free to check out my tutorials in React, GraphQL, Node, JavaScript ES+, and more." />
+        <meta name="description" content="Web developer in São Paulo, Brazil. Feel free to check out my tutorials in React, GraphQL, Node, JavaScript ES+, and more." />
         <title>Homepage</title>
       </Head>
         <div>
