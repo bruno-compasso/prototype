@@ -26,7 +26,6 @@
 .footer p {
 color: rgba(255,255,255,.5);
 margin: 0;
-padding-bottom: 5px;
 }
 
 .contactRow i {
@@ -40,4 +39,24 @@ color: rgba(255,255,255,.7);
 
 .contactRow a {
 margin-right: 20px;
+}
+
+.socialNetworks a {
+  text-align: center;
+  padding: 0;
+  display: grid;
+  width: 100%;
+}
+
+.socialNetworks svg {
+  margin: 0 auto;
+  color: #fff;
+  opacity: .5;
+  max-width: 30px;
+  transition: .1s;
+}
+
+.socialNetworks svg:hover {
+  opacity: 1;
+  transition: .1s;
 }
