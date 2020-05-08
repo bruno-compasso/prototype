@@ -13,7 +13,6 @@ export default function Tutorials() {
       </Head>
         <div>
           <Header />
-          <Footer />
         </div>
     </Layout>
   )

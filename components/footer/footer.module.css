@@ -1,5 +1,5 @@
 .footerOuter {
-  background: #1a1a1a;
+  background: #222;
 }
 
 .footer {
@@ -10,6 +10,7 @@
   column-gap: 15px;
   padding: 100px 0;
   align-items: center;
+  margin: 20px 0;
 }
 
 .footer h4 {

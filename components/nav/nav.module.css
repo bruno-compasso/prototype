@@ -20,8 +20,7 @@
 
 .navWrapper ul li {
   background: #fff;
-  display: inline;
-  padding: 10px;
+  display: inline-grid;
 }
 
 .navWrapper a {
@@ -29,20 +28,30 @@
 }
 
 .navWrapper ul li a {
-  color: #555;
-  margin: 20px;
+  color: #000;
+  margin: 10px 10px 5px 10px;
   font-weight: 400;
-  transition: .15s;
   text-decoration: none;
+}
+
+.navWrapper ul li:after {
+  content: '';
+  background: #fa3c00;
+  height: 5px;
+  width: 0;
+  bottom: 0;
+  display: block;
+  position: relative;
+  transition: .15s;
+}
+
+.navWrapper ul li:hover:after {
+  width: 100%;
+  transition: .15s;
 }
 
 .navWrapper ul li:hover {
   cursor: pointer;
-}
-
-.navWrapper ul li:hover a {
-  color: #000;
-  transition: .15s;
 }
 
 .brandLogo {

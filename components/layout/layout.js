@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from './layout.module.css'
-import Link from 'next/link'
 import Nav from '../nav/nav'
+import Footer from '../footer/footer'
 
 export const siteTitle = 'Next.js Sample Website'
 
@@ -18,13 +18,7 @@ export default function Layout({ children, home }) {
       </Head>
       <Nav />
       <main>{children}</main>
-      {!home && (
-        <div>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+      <Footer />
     </div>
   )
 }

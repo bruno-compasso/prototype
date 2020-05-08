@@ -16,9 +16,9 @@ export default function Nav() {
       <nav className="app-nav">
         <div className={styles.navWrapper}>
           <ul id={styles.navDesktop} className={styles.navMenu}>
-            <li><Link href="/"><a>Home</a></Link></li>
-            <li><Link href="/contact/contact" as="/contact"><a>Contato</a></Link></li>
-            <li><Link href="./tutorials/all">Tutorials</Link></li>
+            <Link href="/"><li><a>Home</a></li></Link>
+            <Link href="/contact/contact" as="/contact"><li><a>Contato</a></li></Link>
+            <Link href="/tutorials/all"><li><a>Tutorials</a></li></Link>
           </ul>
           <i onClick={navToggle} className={`${styles.navMenuIcon} fas fa-bars`}></i>
         </div>
