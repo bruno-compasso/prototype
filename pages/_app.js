@@ -10,13 +10,15 @@ export default function App({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        {/* Global site tag (gtag.js) - Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101662484-4"></script>
-        <script>
+        <script dangerouslySetInnerHTML={
+        {__html:`
           window.dataLayer = window.dataLayer || [];
-          function gtag = () => dataLayer.push(arguments)
-          gtag('js', new Date());
-          gtag('config', 'UA-101662484-4');
+          function gtag(){window.dataLayer.push(arguments)}
+          gtag("js", new Date());
+          gtag("config", "UA-101662484-4");
+        `}
+        }>
         </script>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
       </Head>
