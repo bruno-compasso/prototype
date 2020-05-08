@@ -3,9 +3,8 @@
   align-items: end;
   text-align: center;
   transition: .15s;
-  background: #1c1c1c;
+  background: #222;
   min-height: 200px;
-  border-bottom: 2px solid transparent;
 }
 
 .container:hover {

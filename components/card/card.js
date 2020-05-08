@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Card(props) {
   return (
-    <Link href={props.link}>
+    <Link href={props.link} as={props.as || props.link}>
       <div className={styles.container}>
         <span className={styles.title}>{props.name}</span>
       </div>
