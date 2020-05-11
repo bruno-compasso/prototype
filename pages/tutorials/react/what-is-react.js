@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import CodeBlock from '../../../markdown/code-renderer'
 import sampleCode from '../../../markdown/react/code'
 
-export default function _01() {
+export default function WhatIsReact() {
   return (
     <Layout>
       <Head>

@@ -11,7 +11,7 @@ class Footer extends Component {
             <div className={`${styles.contactRow} tal`}>
               <p className={styles.socialNetworks}>
                 <a className="socialMediaLink" href="https://www.linkedin.com/in/sirbruno/" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon className="faSocialMedia" icon={['fab', 'linkedin']} />
+                  <FontAwesomeIcon className="faSocialMedia" width="30px" icon={['fab', 'linkedin']} />
                 </a>
               </p>
             </div>
