@@ -23,3 +23,17 @@
 .backToHome {
   margin: 3rem 0 0;
 }
+
+.fullScreenMenuToggle {
+  display: none;
+  padding: 25px 27px;
+  background: #fff;
+  border-radius: 100px;
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+@media screen and (max-width: 767px) {
+  .fullScreenMenuToggle {
+    display: block;
+  }
+}

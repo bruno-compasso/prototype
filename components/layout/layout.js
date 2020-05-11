@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import Nav from '../nav/nav'
 import Footer from '../footer/footer'
+import Link from 'next/link'
 
 export const siteTitle = 'Next.js Sample Website'
 
@@ -17,7 +18,26 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
       </Head>
       <Nav />
-      <main>{children}</main>
+      <header>
+        <input type='checkbox' id='toggle' style={{ display: 'none' }} />
+        <label className={`toggle-btn toggle-btn__cross ${styles.fullScreenMenuToggle}`} for='toggle'>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </label>
+        <nav className='navWrapper'>
+          <ul id={styles.navDesktop} className={styles.navMenu}>
+            <Link href="/"><li><a>Home</a></li></Link>
+            <Link href="/contact"><li><a>Contato</a></li></Link>
+            <Link href="/tutorials/all"><li><a>Tutorials</a></li></Link>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class='wrap'>
+          {children}
+        </div>
+      </main>
       <Footer />
     </div>
   )
