@@ -1,9 +1,7 @@
 import styles from './contact.module.css'
-import Layout from '../../components/layout/layout'
+import Layout from '../layout/layout'
 
-const IMG1 = 'https://i.imgur.com/R6JB6SK.jpg'
-
-export default function Contact() {
+export default function ContactComponent() {
   return (
     <Layout>
       <div className={styles.section}>
