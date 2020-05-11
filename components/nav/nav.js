@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import styles from './nav.module.css'
 import Link from 'next/link'
 import FullScreenMenu from '../fullScreenMenu/fullScreenMenu'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Nav() {
 
@@ -13,18 +16,18 @@ export default function Nav() {
 
   return (
     <div>
-      <nav className="app-nav">
+      <nav className={styles.appNav}>
         <div className={styles.navWrapper}>
           <ul id={styles.navDesktop} className={styles.navMenu}>
             <Link href="/"><li><a>Home</a></li></Link>
-            <Link href="/contact/contact" as="/contact"><li><a>Contato</a></li></Link>
+            <Link href="/contact"><li><a>Contato</a></li></Link>
             <Link href="/tutorials/all"><li><a>Tutorials</a></li></Link>
           </ul>
-          <i onClick={navToggle} className={`${styles.navMenuIcon} fas fa-bars`}></i>
+          {/* <i onClick={navToggle} className={`${styles.navMenuIcon} fas fa-bars`}></i> */}
+          <FontAwesomeIcon icon={faBars} />
         </div>
       </nav>
       <FullScreenMenu navToggle={navToggle} navShow={navStatus} />
     </div>
   )
-
 }

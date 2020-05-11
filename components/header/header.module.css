@@ -64,4 +64,9 @@
   .hideOnDesktop {
     display: block;
   }
+
+  .mainDiv {
+    padding: 50px 25px;
+    height: auto;
+  }
 }
