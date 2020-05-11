@@ -75,15 +75,14 @@ pre, pre code {
   text-align: left !important;
 }
 
-@media screen and (max-width: 767px) {
-  .hideMobile {
-    display: none;
-  }
-}
-
 // LOGO
 .app-logo {
   max-width: 100px;
+}
+
+.markdownPage {
+  background: #222;
+  padding: 100px;
 }
 
 // fullscreen menu
@@ -208,5 +207,15 @@ header {
         transform:translateY(-8px) rotate(-45deg);
       }
     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hideMobile {
+    display: none;
+  }
+
+  .markdownPage {
+    padding: 25px;
   }
 }

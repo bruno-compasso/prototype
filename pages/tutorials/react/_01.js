@@ -10,7 +10,7 @@ export default function _01() {
       <Head>
         <title>What is React?</title>
       </Head>
-      <div style={{ background: "#222", padding: "100px" }}>
+      <div className="markdownPage">
         <ReactMarkdown
           source={sampleCode}
           renderers={{ code: CodeBlock }}
