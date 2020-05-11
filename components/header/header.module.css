@@ -1,7 +1,7 @@
 /* orange: #fa3c00 */
 
 .mainDiv {
-  background: url("/header-background.jpg");
+  /* background: url("/header-background.jpg"); */
   background-position: bottom;
   background-size: cover;
   align-content: center;
