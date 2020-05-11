@@ -20,14 +20,11 @@ export default function Nav() {
         <div className={styles.navWrapper}>
           <ul id={styles.navDesktop} className={styles.navMenu}>
             <Link href="/"><li><a>Home</a></li></Link>
-            <Link href="/contact"><li><a>Contato</a></li></Link>
+            <Link href="/contact"><li><a>Contact</a></li></Link>
             <Link href="/tutorials/all"><li><a>Tutorials</a></li></Link>
           </ul>
-          {/* <i onClick={navToggle} className={`${styles.navMenuIcon} fas fa-bars`}></i> */}
-          <FontAwesomeIcon icon={faBars} />
         </div>
       </nav>
-      <FullScreenMenu navToggle={navToggle} navShow={navStatus} />
     </div>
   )
 }

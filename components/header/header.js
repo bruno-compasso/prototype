@@ -2,16 +2,7 @@ import styles from './header.module.css'
 
 export default function Header() {
   return (
-    <div id={styles.header} className={styles.mainDiv} style={{
-      background: 'url("/header-background.jpg")',
-      height: '100vh',
-      display: 'grid',
-      padding: '0 100px',
-      backgroundPosition: 'bottom',
-      backgroundSize: 'cover',
-      alignContent: 'center',
-      textAlign: 'center'
-    }}>
+    <div id={styles.header} className={styles.mainDiv}>
         <div className={styles.contentBox}>
           <div className={styles.content}>
             <h1>
