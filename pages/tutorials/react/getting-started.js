@@ -2,21 +2,20 @@ import Head from 'next/head'
 import Layout from '../../../components/layout/layout'
 import ReactMarkdown from 'react-markdown/with-html'
 import CodeBlock from '../../../markdown/code-renderer'
-import WhatIsReact_md from '../../../markdown/react/WhatIsReact_md'
+import gettingStarted_md from '../../../markdown/react/gettingStarted_md.js'
 import Link from 'next/link'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export default function WhatIsReact() {
+export default function gettingStarted() {
 
   return (
     <Layout>
       <Head>
-        <title>What is React?</title>
+        <title>Getting started</title>
       </Head>
       <div className="markdownPage">
         <ReactMarkdown
           escapeHtml={false}
-          source={WhatIsReact_md}
+          source={ gettingStarted_md }
           renderers={{ code: CodeBlock }}
         />
         <div style={{
@@ -27,16 +26,18 @@ export default function WhatIsReact() {
           <span>
             <span style={{ display: 'block' }}>←</span>
             Previous lesson
-            <a style={{ display: 'block', fontSize: '16px' }}>
-              {/* none */}
-            </a>
+            <Link href="/tutorials/react/what-is-react">
+              <a style={{ display: 'block', fontSize: '16px' }}>
+                What is React?
+              </a>
+            </Link>
           </span>
           <span style={{ textAlign: 'right' }}>
             <span style={{ display: 'block' }}>→</span>
             Next lesson
-            <Link href="/tutorials/react/getting-started">
+            <Link href="">
               <a style={{ display: 'block', fontSize: '16px' }}>
-                Getting started
+                ???
               </a>
             </Link>
           </span>

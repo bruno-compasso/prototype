@@ -12,6 +12,8 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "@mdx-js/loader": "^1.6.1",
+    "@next/mdx": "^9.4.0",
     "@svgr/cli": "^5.4.0",
     "@svgr/webpack": "^5.4.0",
     "create-react-class": "^15.6.3",
