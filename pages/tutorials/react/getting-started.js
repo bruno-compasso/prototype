@@ -2,17 +2,17 @@ import Head from 'next/head'
 import Layout from '../../../components/layout/layout'
 import ReactMarkdown from 'react-markdown'
 import CodeBlock from '../../../markdown/code-renderer'
-import WhatIsReact_md from '../../../markdown/react/WhatIsReact_md'
+import gettingStarted_md from '../../../markdown/react/gettingStarted_md'
 
-export default function WhatIsReact() {
+export default function gettingStarted() {
   return (
     <Layout>
       <Head>
-        <title>What is React?</title>
+        <title>Getting started</title>
       </Head>
       <div className="markdownPage">
         <ReactMarkdown
-          source={ WhatIsReact_md }
+          source={ gettingStarted_md }
           renderers={{ code: CodeBlock }}
         />
       </div>
