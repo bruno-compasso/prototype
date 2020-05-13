@@ -43,7 +43,7 @@ Once it's done, navigate into the folder by typing \`cd my-app\`, then run the f
 
 This command will automatically navigate you to http://localhost:3000 on your browser, where you should see something like this:
 
-<img src="/create-app-running.png" />
+<img src="/images/create-app-running.png" />
 
 And there you have it. You just created your first React application!
 `
