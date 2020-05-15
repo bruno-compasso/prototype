@@ -17,7 +17,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className={styles.footerCol}>
-            <h4>Contato</h4>
+            <h4>Contact</h4>
             <p>+55 (19) 97115 9735</p>
             <p>bruno.webjr@gmail.com</p>
             <p>São Paulo, Brazil</p>
