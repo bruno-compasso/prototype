@@ -9,7 +9,7 @@ export default function gettingStarted() {
       source={gettingStarted_md}
       prevLesson="What is React?"
       prevLink="/tutorials/react/what-is-react"
-      nextLesson="???"
+      nextLesson="tba"
       nextLink=""
     />
   )
