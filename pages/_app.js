@@ -21,6 +21,7 @@ export default function App({ Component, pageProps }) {
         }>
         </script>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
       <Component {...pageProps} />
     </Fragment>
