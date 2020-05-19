@@ -13,10 +13,10 @@ export default function Tutorials() {
         <title>Homepage</title>
       </Head>
       <div>
-        <AdSense.Google
+        {/* <AdSense.Google
           client='ca-pub-8201685078913523'
           slot='4036651736'
-        />
+        /> */}
         <script data-ad-client="ca-pub-8201685078913523" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <Header />
       </div>
