@@ -10,20 +10,8 @@ export default function Publisher() {
         <title>React</title>
       </Head>
       <div className="cardContainer">
-        <Card link="/tutorials/react/what-is-react" name="What is React?" />
-        <Card link="/tutorials/react/getting-started" name="Getting started" />
-        <Card link="/topics/angular" name="???" />
-        <Card link="/topics/graphql" name="Hooks?" />
-
-        <Card link="../lessons/react/_01" name="What is React?" />
-        <Card link="/topics/javascriptesplus" name="What's JSX" />
-        <Card link="/topics/angular" name="???" />
-        <Card link="/topics/graphql" name="Hooks?" />
-
-        <Card link="../lessons/react/_01" name="What is React?" />
-        <Card link="/topics/javascriptesplus" name="What's JSX" />
-        <Card link="/topics/angular" name="???" />
-        <Card link="/topics/graphql" name="Hooks?" />
+        <Card link="/tutorials/react/react-basics" name="React basics" />
+        <Card link="/tutorials/react/intermediate-react" name="Intermediate React" />
       </div>
     </Layout>
   )
