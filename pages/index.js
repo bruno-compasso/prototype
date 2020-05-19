@@ -11,9 +11,10 @@ export default function Tutorials() {
         <meta name="description" content="Web developer in SP, Brazil. Feel free to check out my tutorials in React, ES6+, GraphQL, and more." />
         <title>Homepage</title>
       </Head>
-        <div>
-          <Header />
-        </div>
+      <div>
+        <script data-ad-client="ca-pub-8201685078913523" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <Header />
+      </div>
     </Layout>
   )
 }
