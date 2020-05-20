@@ -26,9 +26,9 @@ Here's what's happening here:
 - Then we are declaring a function called *App* and setting it as the default export.
 - And lastly, we are returning a \`div\` element with a class named "App", which contains two header elements inside of it.
 
-This syntax might be confusing at first because it looks neither JavaScript or HTML, instead it looks like a mix of both. This syntax is called JSX, and it was created as an easier way to write React applications.
+This syntax might be confusing at first because it looks neither JavaScript nor HTML, instead it looks like a mix of both. This syntax is called JSX, and it was created as an easier way to write React applications.
 
-Now, you might be wondering, if React is a library, can't we just import it inside an HTML file and use vanilla JavaScript to write our web applications using React? Well, in fact you can. You don't really need to know much about it to be considered an intermediate React developer, but what you need to know is: It is possible to write React with vanilla JavaScript, but it's much easier to do so using JSX.
+Now, you might be wondering, if React is a library, can't we just import it inside an HTML file and use vanilla JavaScript to write our web applications using React? Well, in fact you can. You don't really need to know much about this specific issue to be considered an intermediate React developer, but what you need to know is: It is possible to write React with vanilla JavaScript, but it's much easier to do so using JSX.
 
 ### JSX transpiling
 
@@ -36,7 +36,7 @@ One other thing to keep in mind is that, while you can write React using JSX, yo
 
 ### What's returned from a component
 
-Let's take a close look at the return statement of the code we mentioned before:
+Let's take a closer look at the return statement of the code we mentioned before:
 
 \`\`\`jsx
   return (
