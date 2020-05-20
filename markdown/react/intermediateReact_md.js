@@ -92,4 +92,35 @@ The reason for that is, since we're writing JavaScript, *class* is a reserved ke
 
 The *class* keyword in JavaScript and the *class* attribute in HTML are two completely different things. Because of that, JSX had to specify different names for HTML attributes that otherwise would conflict with JavaScript keywords. For example, the *class* attribute becomes *className* in JSX. This characteristic applies to other aspects of JSX as well, but they are not very important right now, so i'll talk about them later on.
 
+### Embedding Expressions
+
+It is possible to pass expressions as value to attributes in JSX, using curly braces instead of quotes &ndash; This is called *interpolation*. Take at look at the following code:
+
+\`\`\`jsx
+  const name = "Container"
+
+  return (
+    <div className={ name }>
+      <h1>Hello World</h1>
+      <h2>This is a React tutorial.</h2>
+    </div>
+  )
+\`\`\`
+
+Instead of passing a string to *className*, we're passing an expression. The *name* constant will be evaluated to "Container", and that value will be passed to the \`div\` once the code has been compiled.
+
+You can do the same thing in the HTML as well:
+
+\`\`\`jsx
+  const color = "Purple"
+  const num = 5;
+
+  return (
+    <div>
+      <p>My favorite color is { color }</p>
+      <p>5 + 5 = { num * 2 }</p>
+    </div>
+  )
+\`\`\`
+
 `
