@@ -12,7 +12,8 @@ export default function App({ Component, pageProps }) {
       <Head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101662484-4"></script>
         <script dangerouslySetInnerHTML={
-        {__html:`
+          {
+            __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments)}
           gtag("js", new Date());
@@ -21,7 +22,6 @@ export default function App({ Component, pageProps }) {
         }>
         </script>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
       <Component {...pageProps} />
     </Fragment>
