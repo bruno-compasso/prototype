@@ -76,9 +76,7 @@ Once it's done, navigate into the folder by typing \`cd my-app\`, then run the f
 
 \`npm start\`
 
-This command will automatically navigate you to http://localhost:3000 on your browser, where you should see something like this:
-
-<img src="/images/create-app-running.png" />
+This command will automatically navigate you to http://localhost:3000 on your browser, where you should see your app runing.
 
 And there you have it. You just created your first React application!
 `
