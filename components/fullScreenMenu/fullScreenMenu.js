@@ -6,7 +6,7 @@ class FullScreenMenu extends React.Component {
     if (this.props.navShow) {
       return (
         <div>
-          <nav class={`${styles.navMenu} ${styles.navMenuOff}`}>
+          <nav className={`${styles.navMenu} ${styles.navMenuOff}`}>
             <div>
               <ul>
                 <li><Link onClick={() => (this.props.navToggle())} href="/">Home</Link></li>

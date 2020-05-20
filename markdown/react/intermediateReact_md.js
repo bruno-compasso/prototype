@@ -77,4 +77,19 @@ It would throw an error, because React requires that, whenever you're returning 
 
 So, keep in mind that, whenever you want to return more than one element from a React component, you *must* place them inside of a container element, wether it is a \`div\`, a \`section\`, a \`p\`, it doesn't matter what tag you use, but it needs to be inside of a container, so that you can return only one parent element.
 
+### React-specific attributes
+
+If you paid attention to the code example on the beginning of this page, you might have noticed that we applied a class to the \`div\` element, but we used the word *className* instead of the *class* you might be familiar with.
+
+\`\`\`jsx
+    <div className="App">
+      <h1>Hello World</h1>
+      <h2>This is a React tutorial.</h2>
+    </div>
+\`\`\`
+
+The reason for that is, since we're writing JavaScript, *class* is a reserved keyword. Remember we have classes in JavaScript.
+
+The *class* keyword in JavaScript and the *class* attribute in HTML are two completely different things. Because of that, JSX had to specify different names for HTML attributes that otherwise would conflict with JavaScript keywords. For example, the *class* attribute becomes *className* in JSX. This characteristic applies to other aspects of JSX as well, but they are not very important right now, so i'll talk about them later on.
+
 `
