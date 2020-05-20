@@ -1,5 +1,7 @@
 export default `
-## What is React?
+## React basics
+
+### What is React?
 
 React is a library for building user interfaces in a modular fashion. What makes React so great is that it makes it much easier to build complex UIs by allowing you to separate different elements of the UI into smaller parts called *components*.
 
@@ -13,7 +15,7 @@ This is one of the biggest advantages of using a library like React, that is, yo
 
 ### A practical example
 
-\`\`\`js
+\`\`\`jsx
 import React from "react";
 import ReactDOM from "react-dom";
 
