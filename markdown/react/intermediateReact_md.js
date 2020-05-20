@@ -1,7 +1,9 @@
+import Link from 'next/link'
+
 export default `
 ## Intermediate React
 
-Now that you already know the basics of React, it's time to learn some of the main concepts that you'll be required to know in order to get a job as a React developer. If you manage to follow along with this guide and practice a lot with small, personal projects, i guarantee you'll get a job as a React developer &ndash; I'm saying this based on personal experience.
+Now that you already know the <a href="/tutorials/react/react-basics">basics of React</a>, it's time to learn some of the main concepts that you'll be required to know in order to build complex projects using React. If you manage to follow along with this guide and practice a lot with small, personal projects, i guarantee you'll get the hang of it pretty fast.
 
 ### What is JSX?
 
